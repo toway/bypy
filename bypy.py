@@ -193,7 +193,8 @@ AppPcsPath = '/apps/bypy' # change this to the App's direcotry you specified whe
 AppPcsPathLen = len(AppPcsPath)
 
 # Program setting constants
-HomeDir = expanduser('~')
+#HomeDir = expanduser('~')
+HomeDir = '/jffs/configs'
 TokenFilePath = HomeDir + os.sep + '.bypy.json'
 HashCachePath = HomeDir + os.sep + '.bypy.pickle'
 #UserAgent = 'Mozilla/5.0'
